@@ -22,4 +22,35 @@ export const videoformations = [
   },
 ];
 
+export const footerLinks = [
+  {
+    title: "À propos",
+    links: [
+      { title: "Comment ça fonctionne", url: "/" },
+      { title: "En vedette", url: "/" },
+      { title: "Partenariats", url: "/" },
+      { title: "Relations d'affaires", url: "/" },
+    ],
+  },
+  {
+    title: "Entreprise",
+    links: [
+      { title: "Événements", url: "/" },
+      { title: "Blog", url: "/" },
+      { title: "Podcast", url: "/" },
+      { title: "Inviter un ami", url: "/" },
+    ],
+  },
+  {
+    title: "Réseaux sociaux",
+    links: [
+      { title: "Discord", url: "/" },
+      { title: "Instagram", url: "/" },
+      { title: "Twitter", url: "/" },
+      { title: "Facebook", url: "/" },
+    ],
+  },
+];
+
+
 

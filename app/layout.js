@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
             <nav
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              } absolute md:static top-24 left-0 w-full md:w-auto bg-gray-100 md:bg-transparent z-10 md:flex items-center md:space-x-6`}
+              } absolute md:static top-20 left-0 w-full md:w-auto bg-gray-100 md:bg-transparent z-10 md:flex items-center md:space-x-6`}
             >
               <ul className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6 p-4 md:p-0">
                 <li>
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
         </header>
 
         {/* Main Content */}
-        <main className=" mb-10">{children}</main>
+        <main className="">{children}</main>
 
         {/* Footer */}
         <Footer />

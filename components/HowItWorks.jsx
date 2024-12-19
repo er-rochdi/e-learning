@@ -20,30 +20,30 @@ const HowItWorks = () => {
     },
   ];
 
-  return (
+return (
     <section className="py-8 text-center">
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-6">
-          Comment se former avec Elephorm ?
-        </h2>
-        <div className="flex justify-center gap-12">
-          {steps.map((step) => (
-            <div
-              key={step.id}
-              className="bg-white shadow-lg rounded-md p-4  py-14 flex flex-col  justify-center items-center w-96"
-            >
-              <div className="text-4xl mr-4 mb-4">{step.icon}</div>
-              <div>
-                <h3 className="text-lg font-semibold mb-5 co-primary">{step.title}</h3>
-                <p className=" text-gray-600">{step.description}</p>
-              </div>
-              <button className="bg-blue-600 text-white px-4 py-2 mt-8 rounded">{step.btn}</button>
+        <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold text-center mb-6">
+                Comment se former avec Elephorm ?
+            </h2>
+            <div className="flex flex-wrap justify-center mt-10 gap-8">
+                {steps.map((step) => (
+                    <div
+                        key={step.id}
+                        className="bg-white shadow-lg rounded-md p-4 py-20 flex flex-col justify-center items-center w-full sm:w-96"
+                    >
+                        <div className="text-4xl mr-4 mb-4">{step.icon}</div>
+                        <div>
+                            <h3 className="text-lg font-semibold mb-5 co-primary">{step.title}</h3>
+                            <p className="text-gray-600">{step.description}</p>
+                        </div>
+                        <button className="bg-blue-600 text-white px-4 py-2 mt-8 rounded">{step.btn}</button>
+                    </div>
+                ))}
             </div>
-          ))}
         </div>
-      </div>
     </section>
-  );
+);
 };
 
 export default HowItWorks;
