@@ -11,7 +11,7 @@ const FeatureSection = () => {
     return (
         <section className="py-4">
             <div className="mx-auto">
-                <div className="text-center py-10 bg-gray-100">
+                <div className="text-center py-16 bg-gray-100">
                     <h2 className="text-2xl font-bold text-center mb-6">Besoin d’aide ? Contactez notre support technique !</h2>
                     <p className="text-center m-auto w-[80%]">Notre équipe de support technique est disponible 24h/24 pour répondre à toutes vos questions et vous aider à résoudre vos problèmes.</p>
                 </div>

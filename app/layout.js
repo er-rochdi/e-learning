@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
           <div className="container mx-auto flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center">
-              <Image src="/logo.png" alt="E-Learning Platform" width={120} height={50} />
-              <h1 className="text-xl font-bold ml-4 hidden md:block">E-Learning Platform</h1>
+              <Image src="/logo.png" alt="E-Learning Platform" width={100} height={50} />
+              <h1 className="text-xl font-bold ml-1 hidden md:block co-primary">Blended OFPPT</h1>
             </div>
 
             {/* Hamburger Menu for Mobile */}
