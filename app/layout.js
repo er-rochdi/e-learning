@@ -53,13 +53,13 @@ export default function RootLayout({ children }) {
             >
               <ul className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6 p-4 md:p-0">
                 <li>
-                  <a href="/" className="hover:text-blue-500">Home</a>
+                  <a href="/" className="hover:text-blue-500">Accueil</a>
                 </li>
                 <li>
-                  <a href="/courses" className="hover:text-blue-500">Courses</a>
+                  <a href="/courses" className="hover:text-blue-500">Frormations</a>
                 </li>
                 <li>
-                  <a href="/about" className="hover:text-blue-500">About</a>
+                  <a href="/about" className="hover:text-blue-500">À propos</a>
                 </li>
                 <li>
                   <a href="/contact" className="hover:text-blue-500">Contact</a>
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
                   <a href="/login" className="hover:text-blue-500">Inscription</a>
                 </li>
                 <li className="md:ml-auto">
-                  <a href="/login" className="hover:text-blue-500">Login</a>
+                  <a href="/login" className="hover:text-blue-500">Connexion</a>
                 </li>
               </ul>
             </nav>
