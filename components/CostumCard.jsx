@@ -5,7 +5,7 @@ import Image from 'next/image';
 const CostumCard = ({ formations = [] }) => {
   if (formations.length === 0) {
     return (
-      <main className="p-8">
+      <main className="mx-auto p-8 container">
         <h2 className="text-xl font-semibold mb-4">Available Courses</h2>
         <p className="text-gray-500">No courses available at the moment. Please check back later.</p>
       </main>
@@ -13,7 +13,7 @@ const CostumCard = ({ formations = [] }) => {
   }
 
   return (
-    <main className="p-8">
+    <main className="mx-auto p-8 container">
       <h2 className="text-xl font-semibold mb-4">Available Courses</h2>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {formations.map((formation) => (
