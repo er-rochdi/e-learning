@@ -20,9 +20,9 @@ const CostumCard = ({ formations = [] }) => {
           <li key={formation.id} className="p-4 mb-4 bg-white shadow rounded hover:shadow-lg transition">
             <Image src={formation.image} alt={formation.title} width={420} height={200} />
             <h3  className="text-lg font-semibold mt-2">{formation.title}</h3>
-            <p className="text-gray-600">{formation.description}</p>
-            <Link href={`/courses/${formation.id}`} className="text-blue-500 hover:underline">
-            View Details
+            <p className="text-gray-600 mb-2">{formation.description}</p>
+            <Link href={`/courses/${formation.id}`} className=" text-white bg-primary p-1 rounded">
+              Accès à la formation
             </Link>
           </li>
         ))}
