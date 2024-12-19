@@ -33,6 +33,9 @@ body {
 .bg-primary {
    background-color: #01529b !important;
 }
+.co-primary {
+   color: #01529b !important;
+}
 .bg-gray {
    background-color: #989b9e !important;
 }

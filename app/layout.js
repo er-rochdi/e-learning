@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
         </header>
 
         {/* Main Content */}
-        <main className="container mx-auto p-8">{children}</main>
+        <main className="container mx-auto p-8 mb-10">{children}</main>
 
         {/* Footer */}
         <Footer />

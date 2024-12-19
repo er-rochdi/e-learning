@@ -21,7 +21,9 @@ const CostumCard = ({ formations = [] }) => {
             <Image src={formation.image} alt={formation.title} width={420} height={200} />
             <h3  className="text-lg font-semibold mt-2">{formation.title}</h3>
             <p className="text-gray-600">{formation.description}</p>
-              <a className="text-blue-600 hover:underline mt-2 block">View Details</a>
+            <Link href={`/courses/${formation.id}`} className="text-blue-500 hover:underline">
+            View Details
+            </Link>
           </li>
         ))}
       </ul>
