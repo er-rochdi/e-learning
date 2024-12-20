@@ -1,7 +1,10 @@
+import CartFormation from "@/components/CartFormation";
 import { formations, videoformations } from "@/constants";
 import Image from "next/image";
-export default function CourseId({ params }) {
+export default function CourseId(props) {
+    const { params } = props;
     const id = params.id;
+    console.log(id);
     const formation = formations.find((formation) => formation.id === parseInt(id));
     const relatedVideos = videoformations.filter((video) => video.formationId === parseInt(id));
 
@@ -10,41 +13,20 @@ export default function CourseId({ params }) {
     }
 
     return (
-        <div className="container mx-auto p-8">
-            <div className="mx-auto h-[200px] mb-6 bg-gray-100 p-3 rounded-md flex justify-between justify-items-center">
-                <div>
-                    <h2 className="text-2xl font-bold mb-4 co-primary ">{formation.title}</h2>
-                    <p className="text-lg">{formation.description}</p>
+        <div className="container mx-auto p-4 sm:p-8 border mt-6">
+            <div className="mx-auto h-auto sm:h-[250px]  bg-gray-100 p-3 rounded-md flex flex-col sm:flex-row justify-between items-center">
+                <div className="mb-4 sm:mb-0">
+                    <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 co-primary">{formation.title}</h2>
+                    <p className="text-base sm:text-lg">{formation.description}</p>
                 </div>
 
-                <Image src={formation.image || "/default-image.jpg"} alt={formation.title} width={400} height={300}
-                />
+                <Image src={formation.image} alt={formation.title} width={400} height={100} className="sm:w-auto" />
+                
             </div>
-            <div className="">
-                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {relatedVideos.length > 0 ? (
-                        relatedVideos.map((video) => (
-                            <div key={video.id} className="bg-white shadow-md rounded-lg p-6">
-                                <iframe
-                                    width="100%"
-                                    height="315"
-                                    src={video.video}
-                                    title={video.title}
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                ></iframe>
-                                <div className="flex justify-items-center">
-                                 <Image src="/education.svg" alt="education" width={20} height={20} />
-                                 <h4 className="font-semibold my-3 px-2">{video.title}</h4>
-                                </div>
-                                <span className="text-gray-500 mt-7">{video.durition}</span>
-                            </div>
-                        ))
-                    ) : (
-                        <p>No related videos found for this formation.</p>
-                    )}
-                </div>
+            <div className="mb-4 p-4 bg-white shadow-sm border">
+            <CartFormation formations={formation} /> 
             </div>
+               
         </div>
     );
 }
