@@ -6,14 +6,15 @@ const CostumCard = ({ formations = [] }) => {
   if (formations.length === 0) {
     return (
       <main className="mx-auto p-8 container">
-        <h2 className="text-xl font-semibold mb-4">Available Courses</h2>
+        <h2 className="text-xl font-semibold mb-8">Available Courses</h2>
         <p className="text-gray-500">No courses available at the moment. Please check back later.</p>
       </main>
     );
   }
 
   return (
-    <main className="mx-auto p-8 container mb-6">
+    <main className="my-6 bg-gray-100">
+    <div className="container mx-auto p-8">
       <h2 className="text-xl font-semibold mb-4">Available Courses</h2>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {formations.map((formation) => (
@@ -27,6 +28,7 @@ const CostumCard = ({ formations = [] }) => {
           </li>
         ))}
       </ul>
+    </div>
     </main>
   );
 };
