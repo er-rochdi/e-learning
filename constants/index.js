@@ -40,9 +40,9 @@ export const formations = [
         formationId: 2,
         durition: '2h 00m',
         chapitre: [
-          { id: 1, title: 'Introduction à Photoshop', duration: '20min', score: '15%',video: 'https://www.youtube.com/embed/abcdefg12345' ,formationId: 2,},
+          { id: 1, title: 'Introduction à Photoshop', duration: '20min', score: '15%',video: 'https://www.youtube.com/embed/BMGirukzOPU' ,formationId: 2,},
           { id: 2, title: 'Les calques', duration: '25min', score: '25%' ,video: 'https://www.youtube.com/embed/abcdefg12345',formationId: 2,},
-          { id: 3, title: 'Les outils de retouche', duration: '30min', score: '35%',video: 'https://www.youtube.com/embed/abcdefg12345',formationId: 2,},
+          { id: 3, title: 'Les outils de retouche', duration: '30min', score: '35%',video: 'https://www.youtube.com/embed/BMGirukzOPU',formationId: 2,},
         ],
       },
     ],
@@ -62,9 +62,9 @@ export const formations = [
         formationId: 3,
         durition: '3h 00m',
         chapitre: [
-          { id: 1, title: 'Introduction au langage Java', duration: '40min', score: '20%' ,video: 'https://www.youtube.com/embed/abcdefg12345', formationId: 3,},
+          { id: 1, title: 'Introduction au langage Java', duration: '40min', score: '20%' ,video: 'https://www.youtube.com/embed/l9AzO1FMgM8', formationId: 3,},
           { id: 2, title: 'Les classes et objets', duration: '30min', score: '25%',video: 'https://www.youtube.com/embed/abcdefg12345', formationId: 3,},
-          { id: 3, title: 'Les collections', duration: '50min', score: '30%', video: 'https://www.youtube.com/embed/abcdefg12345',formationId: 3,},
+          { id: 3, title: 'Les collections', duration: '50min', score: '30%', video: 'https://www.youtube.com/embed/l9AzO1FMgM8',formationId: 3,},
         ],
       },
     ],
@@ -84,7 +84,7 @@ export const formations = [
         formationId: 4,
         durition: '2h 30m',
         chapitre: [
-          { id: 1, title: 'Structure HTML', duration: '40min', score: '15%', video: 'https://www.youtube.com/embed/opqrst56789', formationId: 4,},
+          { id: 1, title: 'Structure HTML', duration: '40min', score: '15%', video: 'https://www.youtube.com/embed/qz0aGYrrlhU', formationId: 4,},
           { id: 2, title: 'Mise en page avec CSS', duration: '60min', score: '30%' , video: 'https://www.youtube.com/embed/opqrst56789', formationId: 4,},
           { id: 3, title: 'Responsive design', duration: '50min', score: '45%', video: 'https://www.youtube.com/embed/opqrst56789', formationId: 4,},
           { id: 4, title: 'Animations CSS', duration: '40min', score: '60%', video: 'https://www.youtube.com/embed/opqrst56789',  formationId: 4,},
