@@ -24,7 +24,7 @@ return (
     <section className="py-8 text-center">
         <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold text-center mb-6">
-                Comment se former avec Elephorm ?
+                Comment se former avec BLENDED OFPPT ?
             </h2>
             <div className="flex flex-wrap justify-center mt-10 gap-8">
                 {steps.map((step) => (
