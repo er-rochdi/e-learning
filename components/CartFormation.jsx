@@ -12,6 +12,9 @@ const CartFormation = ({ formations = [] }) => {
   if (formations.length === 0) {
     return <p>No formation found!</p>;
   }
+  const handleFormationPage = (idformation) => {
+    window.location.href = `/formations/${idformation}`;
+  }
 
   return (
     <div>
@@ -65,7 +68,8 @@ const CartFormation = ({ formations = [] }) => {
                 {formation.chapitre.map((chap) => (
                   <li
                     key={chap.id}
-                    className="p-2 bg-gray-100 rounded-md hover:bg-gray-200"
+                    className="p-2 bg-gray-100 rounded-md hover:bg-gray-200 cursor-pointer"
+                    onClick={() => handleFormationPage(chap.formationId)}
                   >
                     <div className="flex items-center justify-between">
                     <div className="flex items-center">

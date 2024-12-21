@@ -13,13 +13,15 @@ import { usePathname } from 'next/navigation';
 
 export default function RootLayout({ children }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const excludedRoutes = ["/formations/1"]; 
+  const excludedRoutes = [/^\/formations\/[^\/]+$/]; 
 
-  const currentRoute = usePathname(); 
-  if (excludedRoutes.includes(currentRoute)) {
-    return (<html lang="en">
-      <body className="min-h-screen">{children}</body>
-    </html>);
+  const currentRoute = usePathname();
+  if (excludedRoutes.some(route => route.test(currentRoute))) {
+    return (
+      <html lang="en">
+        <body className="min-h-screen">{children}</body>
+      </html>
+    );
   }
   
   return (
