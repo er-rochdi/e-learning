@@ -15,7 +15,7 @@ const CostumCard = ({ formations = [] }) => {
   return (
     <main className="my-6 bg-gray-100">
     <div className="container mx-auto p-8">
-      <h2 className="text-xl font-semibold mb-4">Available Courses</h2>
+      <h2 className="text-xl font-semibold mb-4">Les formations disponibles</h2>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {formations.map((formation) => (
           <li key={formation.id} className="p-4 mb-4 bg-white shadow rounded hover:shadow-lg transition">

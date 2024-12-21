@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             {/* Logo */}
             <div className="flex items-center">
               <Image src="/logo.png" alt="E-Learning Platform" width={100} height={50} />
-              <h1 className="text-xl font-bold ml-1 hidden md:block co-primary">Blended OFPPT</h1>
+              <h1 className="text-xl font-bold ml-1 hidden md:block co-primary">BLENDED OFPPT</h1>
             </div>
 
             {/* Hamburger Menu for Mobile */}
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
                   <a href="/" className="hover:text-blue-500">Accueil</a>
                 </li>
                 <li>
-                  <a href="/courses" className="hover:text-blue-500">Frormations</a>
+                  <a href="/courses" className="hover:text-blue-500">Formations</a>
                 </li>
                 <li>
                   <a href="/about" className="hover:text-blue-500">À propos</a>
