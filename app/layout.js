@@ -11,6 +11,14 @@ import { useState } from "react";
 
 export default function RootLayout({ children }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const excludedRoutes = ["/formations/[id]"]; // Add the route(s) to exclude
+
+  // Access the route dynamically if needed (App Router only)
+  const currentRoute = usePathname(); // Import `usePathname` from 'next/navigation'
+
+  if (excludedRoutes.includes(currentRoute)) {
+    return <>{children}</>; // Render only the page content
+  }
 
   return (
     <html lang="en">
