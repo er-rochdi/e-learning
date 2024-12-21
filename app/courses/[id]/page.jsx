@@ -4,7 +4,6 @@ import Image from "next/image";
 export default function CourseId(props) {
     const { params } = props;
     const id = params.id;
-    console.log(id);
     const formation = formations.find((formation) => formation.id === parseInt(id));
     const relatedVideos = videoformations.filter((video) => video.formationId === parseInt(id));
 

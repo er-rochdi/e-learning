@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { formations } from "@/constants";
 import Image from "next/image";
 import NavFormation from "@/components/NavFormation";
+import NotFound from "@/app/not-found";
 
 export default function FormationPage({ params }) {
     const [formation, setFormation] = useState(null);
@@ -35,9 +36,7 @@ export default function FormationPage({ params }) {
     // Handle cases where the formation is not found
     if (!formation) {
         return (
-            <div className="flex items-center justify-center h-screen">
-                <p className="text-xl font-bold text-red-500">Formation not found!</p>
-            </div>
+            <NotFound message="Formation not found!" />
         );
     }
 
