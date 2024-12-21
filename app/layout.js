@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from 'next/navigation';
+
 
 // export const metadata = {
 //   title: "Create Next App",
@@ -11,15 +13,15 @@ import { useState } from "react";
 
 export default function RootLayout({ children }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const excludedRoutes = ["/formations/[id]"]; // Add the route(s) to exclude
+  const excludedRoutes = ["/formations/1"]; 
 
-  // Access the route dynamically if needed (App Router only)
-  const currentRoute = usePathname(); // Import `usePathname` from 'next/navigation'
-
+  const currentRoute = usePathname(); 
   if (excludedRoutes.includes(currentRoute)) {
-    return <>{children}</>; // Render only the page content
+    return (<html lang="en">
+      <body className="min-h-screen">{children}</body>
+    </html>);
   }
-
+  
   return (
     <html lang="en">
       <body className="min-h-screen">
