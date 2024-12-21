@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from 'next/navigation';
+
 
 // export const metadata = {
 //   title: "Create Next App",
@@ -11,7 +13,15 @@ import { useState } from "react";
 
 export default function RootLayout({ children }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const excludedRoutes = ["/formations/1"]; 
 
+  const currentRoute = usePathname(); 
+  if (excludedRoutes.includes(currentRoute)) {
+    return (<html lang="en">
+      <body className="min-h-screen">{children}</body>
+    </html>);
+  }
+  
   return (
     <html lang="en">
       <body className="min-h-screen">
