@@ -18,9 +18,9 @@ export const formations = [
         durition: '1h 30m',
         chapitre: [
           { id: 1, title: 'Introduction', duration: '30min', score: '10%',video: 'https://www.youtube.com/embed/4UZrsTqkcW4' },
-          { id: 2, title: 'Syntaxe de base', duration: '16min', score: '20%' ,video: 'https://www.youtube.com/embed/4UZrsTqkcW4'},
+          { id: 2, title: 'Syntaxe de base', duration: '16min', score: '20%' ,video: 'https://www.youtube.com/embed/sNMtjs_wQiE'},
           { id: 3, title: 'Structures de contrôle', duration: '12min', score: '40%',video: 'https://www.youtube.com/embed/4UZrsTqkcW4' },
-          { id: 4, title: 'Programmation orientée objet', duration: '15min', score: '60%',video: 'https://www.youtube.com/embed/4UZrsTqkcW4' },
+          { id: 4, title: 'Programmation orientée objet', duration: '15min', score: '60%',video: 'https://www.youtube.com/embed/sNMtjs_wQiE' },
         ],
       },
     ],
