@@ -11,8 +11,8 @@ export const formations = [
     videoformations: [
       {
         id: 1,
-        title: 'C# Basics',
-        description: 'Un cours d\'initiation à la programmation avec C#, idéal pour débutants. Développez vos premières applications et maitrisez les bases du langage..',
+        title: 'Maîtriser les fondamentaux du développement avec C#.',
+        description: 'Dans cette formation, nous apprenons les fondamentaux du langage, c\'est à dire sa syntaxe et sa façon d\'exprimer l\'algorithmique, mais nous voyons également des notions fondamentales de développement, comme la programmation orienté objet. Ces notions sont illustrées par de multiples exercices pratiques et vous pouvez également pratiquer par vous-même à l\'aide de mises en situations concrètes, qui vont vous faire réaliser votre jeu du pendu de A à Z.',
         image: '/image1.jpg',
         formationId: 1,
         durition: '1h 30m',
