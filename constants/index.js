@@ -11,10 +11,11 @@ export const formations = [
     videoformations: [
       {
         id: 1,
-        title: 'Maîtriser les fondamentaux du développement avec C#.',
+        title: 'Les bases de C#',
         description: 'Dans cette formation, nous apprenons les fondamentaux du langage, c\'est à dire sa syntaxe et sa façon d\'exprimer l\'algorithmique, mais nous voyons également des notions fondamentales de développement, comme la programmation orienté objet. Ces notions sont illustrées par de multiples exercices pratiques et vous pouvez également pratiquer par vous-même à l\'aide de mises en situations concrètes, qui vont vous faire réaliser votre jeu du pendu de A à Z.',
         image: '/image1.jpg',
         formationId: 1,
+        objectif: 'Maîtriser les bases de la programmation en C#.',
         durition: '1h 30m',
         chapitre: [
           { id: 1, title: 'Introduction', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 1, isActive: true},
@@ -49,6 +50,7 @@ export const formations = [
         description: 'Maîtrisez les outils essentiels de Photoshop pour retoucher et améliorer vos photos. Apprenez à créer des montages et des graphismes percutants.',
         image: '/photoshop.jpg',
         formationId: 2,
+        objectif: 'Maîtriser les bases de Photoshop.',
         durition: '2h 00m',
         chapitre: [
           { id: 1, title: 'L\'interface de Photoshop', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 2, isActive: true},
@@ -83,6 +85,7 @@ export const formations = [
         description: 'Apprenez les bases de la programmation Java et développez vos premières applications. Maîtrisez la syntaxe, les concepts fondamentaux et les outils essentiels.',
         image: '/java.webp',
         formationId: 3,
+        objectif: 'Maîtriser les bases de la programmation en Java.',
         durition: '3h 00m',
         chapitre: [
           { id: 1, title: 'Introduction au langage Java', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 3, isActive: true},
@@ -117,6 +120,7 @@ export const formations = [
         description: 'Apprenez les bases du développement web avec HTML et CSS. Créez vos premières pages web et personnalisez leur apparence.',
         image: '/html.webp',
         formationId: 4,
+        objectif: 'Maîtriser les bases du développement web.',
         durition: '2h 30m',
         chapitre: [
           { id: 1, title: 'Introduction à HTML', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 4, isActive: true},
