@@ -18,42 +18,43 @@ const CartFormation = ({ formations = [] }) => {
 
   return (
     <div>
-      {/* Grid Container */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="">
         {formations.videoformations.map((formation) => (
-          <div
-            key={formation.id}
-            className="bg-white rounded-md p-6 border shadow-sm"
-          >
-            {/* Formation Card */}
-            <Image
-              src={formation.image || "/default-image.jpg"}
-              alt={formation.title}
-              width={400}
-              height={300}
-              className="rounded-md cursor-pointer"
-              onClick={() => toggleAccordion(formation.id)}
-            />
-            <div className="flex items-center mt-4">
+          <div key={formation.id} className="flex justify-center justify-items-center gap-4 flex-col sm:flex-row">
+            <div className="bg-white rounded-md p-6 border shadow-sm">
+              {/* Formation Card */}
               <Image
-                src="/education.svg"
-                alt="education"
-                width={20}
-                height={20}
-              />
-              <h4
-                className="font-semibold my-3 px-2 cursor-pointer"
+                src={formation.image || "/default-image.jpg"}
+                alt={formation.title}
+                width={500}
+                height={400}
+                className="rounded-md cursor-pointer w-full"
                 onClick={() => toggleAccordion(formation.id)}
-              >
-                {formation.title}
-              </h4>
+              />
+              <div className="flex items-center mt-4">
+                <Image
+                  src="/education.svg"
+                  alt="education"
+                  width={20}
+                  height={20}
+                />
+                <h4
+                  className="font-semibold my-3 px-2 cursor-pointer"
+                  onClick={() => toggleAccordion(formation.id)}
+                >
+                  {formation.title}
+                </h4>
+              </div>
+              <span className="text-gray-500 mt-2">{formation.duration}</span>
             </div>
-            <span className="text-gray-500 mt-2">{formation.duration}</span>
+            <p className="text-center mt-6">
+              {formation.description}
+            </p>
           </div>
         ))}
       </div>
-
-      {/* Accordion Section Outside Grid */}
+      
+      
       {formations.videoformations.map(
         (formation) =>
           openAccordion === formation.id && formation.chapitre && (

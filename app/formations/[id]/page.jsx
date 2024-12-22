@@ -68,7 +68,7 @@ export default function FormationPage({ params }) {
             {/* Sidebar */}
             <div className="w-full md:w-1/4 bg-gray-100  border-b md:border-b-0 md:border-r fixed md:relative h-full overflow-y-auto">
                 <div className="sticky top-0 bg-gray-100 z-10 h-16 py-4">
-                    <h2 className="text-xl font-bold mx-4 co-primary">Chapters</h2>
+                    <h2 className="text-xl font-bold mx-4 co-primary">Chapitres</h2>
                 </div>                <ul className=" mt-4">
                     {formation.videoformations?.[0]?.chapitre?.length > 0 ? (
                         formation.videoformations[0].chapitre.map((chap) => (

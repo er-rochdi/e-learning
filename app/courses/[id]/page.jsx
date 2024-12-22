@@ -22,6 +22,7 @@ export default function CourseId(props) {
                 <Image src={formation.image} alt={formation.title} width={400} height={100} className="sm:w-auto" />
                 
             </div>
+            
             <div className="mb-4 p-4 bg-white shadow-sm border">
             <CartFormation formations={formation} /> 
             </div>
