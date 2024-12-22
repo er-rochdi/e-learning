@@ -18,8 +18,7 @@ export default function CourseId(props) {
                     <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 co-primary">{formation.title}</h2>
                     <p className="text-base sm:text-lg">{formation.description}</p>
                 </div>
-
-                <Image src={formation.image} alt={formation.title} width={400} height={100} className="sm:w-auto" />
+                <Image src={formation.image} alt={formation.title} width={400} height={100} className="sm:w-auto h-auto sm:h-[250px]" />
                 
             </div>
             
