@@ -47,7 +47,7 @@ const CartFormation = ({ formations = [] }) => {
               </div>
               <span className="text-gray-500 mt-2">{formation.duration}</span>
             </div>
-            <p className="text-center mt-6">
+            <p className="text-center mt-6 w-full">
               {formation.description}
             </p>
           </div>
