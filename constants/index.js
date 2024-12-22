@@ -12,12 +12,12 @@ export const formations = [
       {
         id: 1,
         title: 'C# Basics',
-        description: 'Apprenez les bases du langage C#.',
+        description: 'Un cours d\'initiation à la programmation avec C#, idéal pour débutants. Développez vos premières applications et maitrisez les bases du langage..',
         image: '/image1.jpg',
         formationId: 1,
         durition: '1h 30m',
         chapitre: [
-          { id: 1, title: 'Introduction', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: true},
+          { id: 1, title: 'Introduction', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 1, isActive: true},
           { id: 2, title: 'Configuration de l\'environnement', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
           { id: 3, title: 'Types de données', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
           { id: 4, title: 'Variables et constantes', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
@@ -46,12 +46,12 @@ export const formations = [
       {
         id: 1,
         title: 'Les bases de Photoshop',
-        description: 'Apprenez les outils essentiels pour le design graphique.',
+        description: 'Maîtrisez les outils essentiels de Photoshop pour retoucher et améliorer vos photos. Apprenez à créer des montages et des graphismes percutants.',
         image: '/photoshop.jpg',
         formationId: 2,
         durition: '2h 00m',
         chapitre: [
-          { id: 1, title: 'L\'interface de Photoshop', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 2, isActive: true},
+          { id: 1, title: 'L\'interface de Photoshop', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 2, isActive: true},
           { id: 2, title: 'Les outils de sélection', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 2, isActive: false},
           { id: 3, title: 'Les calques', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 2, isActive: false},
           { id: 4, title: 'Les masques', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 2, isActive: false},
@@ -80,12 +80,12 @@ export const formations = [
       {
         id: 1,
         title: 'Les bases de Java',
-        description: 'Introduction à Java et à la programmation orientée objet.',
+        description: 'Apprenez les bases de la programmation Java et développez vos premières applications. Maîtrisez la syntaxe, les concepts fondamentaux et les outils essentiels.',
         image: '/java.webp',
         formationId: 3,
         durition: '3h 00m',
         chapitre: [
-          { id: 1, title: 'Introduction au langage Java', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 3, isActive: true},
+          { id: 1, title: 'Introduction au langage Java', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 3, isActive: true},
           { id: 2, title: 'Installation de l\'environnement', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 3, isActive: false},
           { id: 3, title: 'Les types primitifs', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 3, isActive: false},
           { id: 4, title: 'Les variables', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 3, isActive: false},
@@ -114,12 +114,12 @@ export const formations = [
       {
         id: 1,
         title: 'Les bases de HTML et CSS',
-        description: 'Introduction à la structure et au style des pages web.',
+        description: 'Apprenez les bases du développement web avec HTML et CSS. Créez vos premières pages web et personnalisez leur apparence.',
         image: '/html.webp',
         formationId: 4,
         durition: '2h 30m',
         chapitre: [
-          { id: 1, title: 'Introduction à HTML', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 4, isActive: true},
+          { id: 1, title: 'Introduction à HTML', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 4, isActive: true},
           { id: 2, title: 'Structure de base d\'une page HTML', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 4, isActive: false},
           { id: 3, title: 'Les titres et paragraphes', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 4, isActive: false},
           { id: 4, title: 'Les listes', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 4, isActive: false},
