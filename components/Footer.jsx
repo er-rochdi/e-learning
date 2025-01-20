@@ -9,8 +9,8 @@ const Footer = () => (
       <div className='flex flex-col justify-start items-start gap-6'>
         <Image src='/logo.png' alt='logo' width={118} height={18} className='object-contain' />
         <p className='text-base text-gray-700'>
-         Blended OFPPT 2024 <br />
-          All Rights Reserved &copy;
+         BLANDED OFPPT 2024 <br />
+          Tous les Droits Réservés ;
         </p>
       </div>
 
@@ -35,14 +35,14 @@ const Footer = () => (
     </div>
 
     <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
-      <p>@2024 lended OFPPT. All rights reserved</p>
+      <p>@2024 BLENDED OFPPT. Tous les Droits Réservés </p>
 
       <div className="footer__copyrights-link">
         <Link href="/" className="text-gray-500">
-          Privacy & Policy
+         Politique de Confidentialité
         </Link>
         <Link href="/" className="text-gray-500">
-          Terms & Condition
+          Conditions Générales
         </Link>
       </div>
     </div>
