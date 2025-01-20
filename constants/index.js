@@ -4,29 +4,33 @@
 export const formations = [
   {
     id: 1,
-    title: 'Apprendre C# - Les fondamentaux',
-    description: 'Apprenez les bases de la programmation en C#.',
+    title: 'Les notions mathématiques',
+    description: 'Apprenez le codage machine',
     image: '/c-sharp.webp',
-    donneReyal: 'Introduction au C#',
+    donneReyal: 'Introduction au codage',
     videoformations: [
       {
         id: 1,
-        title: 'Les bases de C#',
-        description: 'Dans cette formation, nous apprenons les fondamentaux du langage, c\'est à dire sa syntaxe et sa façon d\'exprimer l\'algorithmique, mais nous voyons également des notions fondamentales de développement, comme la programmation orienté objet. Ces notions sont illustrées par de multiples exercices pratiques et vous pouvez également pratiquer par vous-même à l\'aide de mises en situations concrètes, qui vont vous faire réaliser votre jeu du pendu de A à Z.',
+        title: 'Les notions mathématiques',
+        description: 'd\’amener les apprenants à comprendre les
+systèmes de numération et les codes utilisés par les équipements
+numériques et informatiques pour traiter les informations. IL permet aussi d\’acquérir les bases de la logique combinatoire :
+fonctions binaires, portes logiques, diagramme de Karnaugh, ainsi que
+ses principaux composants.',
         image: '/image1.jpg',
         formationId: 1,
-        objectif: 'Maîtriser les bases de la programmation en C#.',
+        objectif: 'Présenter et interpréter un nombre en différents types de logique',
         durition: '1h 30m',
         chapitre: [
           { id: 1, title: 'Introduction', duration: '10min', score: '30%',video: '/into-c-sharp.mp4', formationId: 1, isActive: true},
-          { id: 2, title: 'Configuration de l\'environnement', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 3, title: 'Types de données', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 4, title: 'Variables et constantes', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 5, title: 'Opérateurs', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 6, title: 'Structures conditionnelles', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 7, title: 'Boucles', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 8, title: 'Tableaux', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-          { id: 9, title: 'Fonctions', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 2, title: 'La notion de la base', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 3, title: 'La conversion du système décimal vers une autre base B', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 4, title: 'La conversion d’une base B vers la base décimale', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 5, title: 'La conversion d’une base B vers une base B1 quelconque', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 6, title: 'Les opérations arithmétiques en différentes Bases', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 7, title: 'Les opérations en d’autres bases', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 8, title: 'Le codage des nombres', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+          { id: 9, title: 'Le code BCD', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
           { id: 10, title: 'Classes et objets', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
            { id: 11, title: 'Héritage', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
            { id: 12, title: 'Interfaces', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
