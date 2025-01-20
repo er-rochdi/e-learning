@@ -30,12 +30,12 @@ export default function Login() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-gray-200">
       <form
         onSubmit={handleLogin}
-        className="bg-white p-6 rounded shadow-md w-80"
+        className="bg-white  rounded shadow-md w-96 h-[400px] p-12"
       >
-        <h2 className="text-2xl font-bold mb-4">se connecter</h2>
+        <h2 className="text-2xl font-bold text-center mb-8">SE CONNECTER</h2>
 
         {error && (
           <div className="mb-4 text-red-500 text-sm">
@@ -44,7 +44,7 @@ export default function Login() {
         )}
 
         <div className="mb-4">
-          <label className="block mb-2">email</label>
+          <label className="block mb-2">Email</label>
           <input
             type="text"
             value={username}
@@ -71,9 +71,9 @@ export default function Login() {
 
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
+          className="w-full bg-blue-500 text-white py-2 mt-3 rounded hover:bg-blue-600"
         >
-          Login
+          Se connecter
         </button>
       </form>
     </div>
