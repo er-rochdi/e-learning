@@ -3,8 +3,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import Image from "next/image";
 import { useState } from "react";
-import { usePathname } from 'next/navigation';
-
+import { usePathname,redirect } from 'next/navigation';
 
 // export const metadata = {
 //   title: "Create Next App",

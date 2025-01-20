@@ -101,17 +101,14 @@ export default function FormationPage({ params }) {
                         <p className="text-gray-700">{formation.description}</p>
                     </div>
 
-                    {selectedChap && (
-                        <div className="mt-6">
-                            <h2 className="text-xl font-bold">{selectedChap.title}</h2>
-                            {selectedChap.video && (
-                                <video controls className="w-full h-[300px] md:h-[500px] rounded-md mt-2">
-                        <source src={selectedChap.video} type="video/mp4"/>
-                         Your browser does not support the video tag
-                    </video>
-                            )}
-                        </div>
-                    )}
+                    <div className="mt-6">
+                        <h2 className="text-xl font-bold">{selectedChap.title}</h2>
+                        <iframe
+                            style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                            width="100%"
+                            height="500"
+                            src="https://embed.figma.com/proto/xXxn38EhYGCLNx0Y4yG2nX/Untitled?page-id=0%3A1&node-id=1-78&viewport=186%2C369%2C0.15&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A78&embed-host=share" allowfullscreen>
+                        </iframe>                        </div>
                 </div>
             </div>
         </div>
