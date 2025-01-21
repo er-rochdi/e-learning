@@ -103,7 +103,8 @@ export default function FormationPage({ params }) {
 
                     <div className="mt-6">
                         <h2 className="text-xl font-bold">{selectedChap.title}</h2>
-                       <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/xXxn38EhYGCLNx0Y4yG2nX/Untitled?page-id=0%3A1&node-id=1-78&viewport=383%2C1472%2C0.24&scaling=contain&content-scaling=responsive&starting-point-node-id=1%3A78&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>                        </div>
+                      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/KO3fxMuAfwACiymFJj72JE/Untitled?page-id=0%3A1&node-id=1-2&viewport=669%2C223%2C0.07&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
+                  </div>
                 </div>
             </div>
         </div>
