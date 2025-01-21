@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
                   <a href="/contact" className="hover:text-blue-500">Contact</a>
                 </li>
                 <li className="md:ml-auto">
-                  <a href="/login" className="hover:text-blue-500">Connexion</a>
+                  <a href="/login" className="hover:text-blue-500">Se connecter/S'inscrire</a>
                 </li>
               </ul>
             </nav>
