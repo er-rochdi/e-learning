@@ -9,7 +9,7 @@ const Footer = () => (
       <div className='flex flex-col justify-start items-start gap-6'>
         <Image src='/logo.png' alt='logo' width={118} height={18} className='object-contain' />
         <p className='text-base text-gray-700'>
-         BLANDED OFPPT 2024 <br />
+         BLENDED OFPPT 2024 <br />
           Tous les Droits Réservés ;
         </p>
       </div>
