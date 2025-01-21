@@ -12,7 +12,7 @@ export const formations = [
       {
         id: 1,
         title: 'Les notions mathématiques',
-        description: "d’amener les apprenants à comprendre les systèmes de numération et les codes utilisés par les équipements numériques et informatiques pour traiter les informations. Il permet aussi d’acquérir les bases de la logique combinatoire : fonctions binaires, portes logiques, diagramme de Karnaugh, ainsi que ses principaux composants.",
+        description: "d\’amener les apprenants à comprendre les systèmes de numération et les codes utilisés par les équipements numériques et informatiques pour traiter les informations. Il permet aussi d\’acquérir les bases de la logique combinatoire : fonctions binaires, portes logiques, diagramme de Karnaugh, ainsi que ses principaux composants.",
         image: '/image1.jpg',
         formationId: 1,
         objectif: 'Présenter et interpréter un nombre en différents types de logique',
