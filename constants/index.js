@@ -5,7 +5,7 @@ export const formations = [
   {
     id: 1,
     title: 'Les notions mathématiques',
-    description: 'Apprenez le codage machine',
+    description: 'Amener les apprenants à comprendre les systèmes de numération et les codes utilisés par les équipements numériques et informatiques pour traiter les informations',
     image: '/binaire4.jpg',
     donneReyal: 'Introduction au codage',
     videoformations: [
@@ -40,7 +40,7 @@ export const formations = [
   {
     id: 2,
     title: 'Maîtriser Photoshop',
-    description: 'Apprenez à utiliser Photoshop pour le design et la retouche photo.',
+    description: 'Maîtrisez les outils essentiels de Photoshop pour retoucher et améliorer vos photos. Apprenez à créer des montages et des graphismes percutants',
     image: '/photoshop.jpg',
     donneReyal: 'Formation Photoshop',
     videoformations: [
