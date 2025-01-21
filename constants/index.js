@@ -30,7 +30,7 @@ export const formations = [
           { id: 10, title: 'Le code de Gray', duration: '25min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
            { id: 11, title: 'Représentation des nombres flottants', duration: '45min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
            { id: 12, title: 'Le code ASCII', duration: '10min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
-           { id: 13, title: 'L'Unicode', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
+           { id: 13, title: 'Unicode', duration: '10min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
             { id: 14, title: 'Le diagramme de Karnaugh', duration: '50min', score: '0%', video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
             { id: 15, title: 'Les schémas logiques', duration: '40min', score: '0%',video: '/into-c-sharp.mp4', formationId: 1, isActive: false},
         ],
