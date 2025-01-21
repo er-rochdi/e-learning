@@ -109,9 +109,9 @@ export default function FormationPage({ params }) {
                             {selectedChap.video && (
                                 <iframe
                                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                                width="100%"
+                                width="800"
                                 height="500"
-                                src={selectedChap.video} >
+                                src={selectedChap.video} allowfullscreen >
                             </iframe>   
                             )}
                         </div>
