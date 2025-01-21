@@ -16,7 +16,7 @@ export default function Login() {
 
     // Basic validation
     if (!username || !password) {
-      setError('Please enter both username and password.');
+      setError('Veuillez Saisir votre Email et Mot de Passe');
       return;
     }
 
@@ -25,7 +25,7 @@ export default function Login() {
       document.cookie = 'isAuthenticated=true; path=/';
       window.location.href = '/';
     } else {
-      setError('Invalid username or password.');
+      setError('Email ou Mot de Passe Incorrecte.');
     }
   };
 
