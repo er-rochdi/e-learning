@@ -109,7 +109,7 @@ export default function FormationPage({ params }) {
                             {selectedChap.video && (
                                 <iframe
                                 style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                                width="800"
+                                width="100%"
                                 height="500"
                                 src={selectedChap.video} >
                             </iframe>   
