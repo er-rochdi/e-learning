@@ -102,13 +102,21 @@ export default function FormationPage({ params }) {
                     </div>
 
                     <div className="mt-6">
-                        <h2 className="text-xl font-bold">{selectedChap.title}</h2>
-                        <iframe
-                            style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-                            width="100%"
-                            height="500"
-                            src="https://embed.figma.com/proto/KO3fxMuAfwACiymFJj72JE/Untitled?page-id=0%3A1&node-id=1-2&viewport=483%2C7%2C0.12&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A2&embed-host=share" >
-                        </iframe>                        
+                        <h2 className="text-xl font-bold">{selectedChap.description}</h2>
+                        {selectedChap && (
+                        <div className="mt-6">
+                            <h2 className="text-xl font-bold">{selectedChap.title}</h2>
+                            {selectedChap.video && (
+                                <iframe
+                                style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
+                                width="100%"
+                                height="500"
+                                src={selectedChap.video} >
+                            </iframe>   
+                            )}
+                        </div>
+                    )}
+                                             
                     </div>
                 </div>
             </div>
